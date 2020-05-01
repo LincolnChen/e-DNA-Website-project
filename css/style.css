@@ -269,7 +269,7 @@ display: inline-block;
 	}
 	.box-content:after {
 		background: #5cb7cc;
-		width: 342px;
+		width: 412px;
 		height: 412px;
 		content: '';
 		position: absolute;
@@ -279,7 +279,24 @@ display: inline-block;
 		transform: rotate(45deg);
 		z-index: -1;
 	}
-.skill-home .icons {padding: 7px 0 6px 0px;width: 65px;height: 50px;color: #03b4c8;font-size: 42px;font-size: 32px;text-align: center;-ms-border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 0;display: inline-table;/* border: 1px solid #C8C8C8; *//* background: transparent; *//* color: #D92222; */float: left;background-color: #fff;margin: 5px;border-radius: 0 0 50%;}
+.skill-home .icons {
+	padding: 7px 0 6px 0px;
+	width: 65px;height: 50px;
+	color: #03b4c8;
+	font-size: 42px;
+	font-size: 32px;
+	text-align: center;
+	-ms-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 0;
+	display: inline-table;
+	/* border: 1px solid #C8C8C8; *//* background: transparent; *//* color: #D92222; */
+	float: left;
+	background-color: #fff;
+	margin: 5px;border-radius: 0 0 50%;
+}
+
 .skill-home h2 {
 padding-top: 20px;
 font-size: 36px;
