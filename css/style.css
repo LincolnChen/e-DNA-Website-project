@@ -21,6 +21,91 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+
+
+/*text styles */
+.CDUTextTwo{
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.CDUTextThree{
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+/* Box Styles */
+
+
+.CDUMostVisited{
+  border: 1px solid #007a87;
+  background-color:#007a87;
+  width: 100%;
+  height: 50px;
+}
+
+
+/* Button Styles */
+.ButtonBox{
+  padding-bottom: 10px;
+  padding-left: 19px;
+}
+
+.ButtonLine{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.next{
+	float: right;
+	margin: 30px;
+}
+
+.goback__button{
+	width: 35px;
+	height: 35px;
+	font-size: 30px;
+	float:left;
+	margin: 30px;
+	text-align: center;
+	background-color: #317b87;
+	border-radius: 5px;
+	color: white;
+
+
+}
+
+.next__button{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	float:right;
+	color: white;
+	margin: 30px;
+	border-radius: 5px;
+	font-size: 30px;
+	background-color: #317b87;
+
+
+}
+
+
+
+
+#info__layer {
+	display: block;
+}
+/*body*/
+
+#edna_info1,#edna_info2,#edna_info3{
+  display: none;
+}
+
+
 .container {
 	padding:0 20px 0 20px;
 	position:relative;

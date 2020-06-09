@@ -31,9 +31,9 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li>
-												<li><a href="about.html">About Us</a></li>
-												<li><a href="services.html">Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+												<li><a href="#">About Us</a></li>
+												<li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,29 +41,54 @@
 
 	</header>
 	<!-- end header -->
+	<div class="BoxBody">
 
+		<div id="info__layer">
+			<div class="ButtonBox">
+				<div class = "ButtonLine">
+					<h2>What is eDNA?</h2>
+					<h4>DNA is the molecule that makes up all living things.</h4>
+					<img src="img/edna1.png" width="1000" height="600">
+				</div>
+				<div class="next__button" onclick="show_building(1)">&#8680;</div>
+			</div>
+		</div>
 
-
-
-
-
-
-
-  <section class="aboutUs">
-<div class="container">
-  <div class="row">
-  <div class="col-md-6"><img src="img/img2.png" class="img-center" alt="" /></div>
-    <div class="col-md-6">
-      <div><h2>Quiz</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.</p>
-      </div>
-      <br/>
-    </div>
-  </div>
+		<div id="edna_info1">
+			<div class="ButtonBox">
+				<div class = "ButtonLine">
+					<h2>What is eDNA?</h2>
+					<h4>DNA is found in all parts of living plants and animals including skin, blood, hair, saliva, feathers, urine and faeces. </h4>
+					<img src="img/edna2.png" width="1000" height="600">
+				</div>
+				<div class="goback__button" onclick="hide_building(1)">&#8678;</div>
+				<div class="next__button" onclick="show_building(2)">&#8680;</div>
+			</div>
+		</div>
+		<div id="edna_info2">
+			<div class="ButtonBox">
+				<div class = "ButtonLine">
+					<h2>What is eDNA?</h2>
+					<h4>Each species has unique DNA, so DNA can be used to identify a species. </h4>
+					<img src="img/edna3.png" width="1000" height="600">
+				</div>
+				<div class="goback__button" onclick="hide_building(2)">&#8678;</div>
+				<div class="next__button" onclick="show_building(3)">&#8680;</div>
+			</div>
+		</div>
+	<br>
+	<br>
+	<br>
+	<br>
 
 </div>
-</section>
+
+
+
+
+
+
+
 
 
   <footer>
@@ -144,6 +169,7 @@
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script defer src="js/myscript.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/bootstrap.min.js"></script>
