@@ -47,35 +47,113 @@
 			<div class="ButtonBox">
 				<div class = "ButtonLine">
 					<h2>What is eDNA?</h2>
-					<h4>DNA is the molecule that makes up all living things.</h4>
+					<h4>1. DNA is the molecule that makes up all living things.</h4>
 					<img src="img/edna1.png" width="1000" height="600">
 				</div>
-				<div class="next__button" onclick="show_building(1)">&#8680;</div>
+				<div class="next__button" onclick="show_building()">&#8680;</div>
 			</div>
 		</div>
 
-		<div id="edna_info1">
+	<div id="edna__layer">
+		<div id="edna_info">
 			<div class="ButtonBox">
 				<div class = "ButtonLine">
 					<h2>What is eDNA?</h2>
-					<h4>DNA is found in all parts of living plants and animals including skin, blood, hair, saliva, feathers, urine and faeces. </h4>
+					<h4>2. DNA is found in all parts of living plants and animals including skin, blood, hair, saliva, feathers, urine and faeces. </h4>
 					<img src="img/edna2.png" width="1000" height="600">
 				</div>
-				<div class="goback__button" onclick="hide_building(1)">&#8678;</div>
-				<div class="next__button" onclick="show_building(2)">&#8680;</div>
+				<div class="goback__button" onclick="hide_building()">&#8678;</div>
+				<div class="next__button" onclick="show_edna()">&#8680;</div>
 			</div>
 		</div>
+	</div>
+
+	<div id="edna2__layer">
 		<div id="edna_info2">
 			<div class="ButtonBox">
 				<div class = "ButtonLine">
 					<h2>What is eDNA?</h2>
-					<h4>Each species has unique DNA, so DNA can be used to identify a species. </h4>
+					<h4>3. Each species has unique DNA, so DNA can be used to identify a species.</h4>
 					<img src="img/edna3.png" width="1000" height="600">
 				</div>
-				<div class="goback__button" onclick="hide_building(2)">&#8678;</div>
-				<div class="next__button" onclick="show_building(3)">&#8680;</div>
+				<div class="goback__button" onclick="hide_edna()">&#8678;</div>
+				<div class="next__button" onclick="show_edna1()">&#8680;</div>
 			</div>
 		</div>
+	</div>
+
+	<div id="edna3__layer">
+		<div id="edna_info3">
+			<div class="ButtonBox">
+				<div class = "ButtonLine">
+					<h2>What is eDNA?</h2>
+					<h4>4. Just like a person can be identified by their fingerprint.</h4>
+					<img src="img/edna4.png" width="1000" height="600">
+				</div>
+				<div class="goback__button" onclick="hide_edna2()">&#8678;</div>
+				<div class="next__button" onclick="show_edna2()">&#8680;</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="edna4__layer">
+		<div id="edna_info4">
+			<div class="ButtonBox">
+				<div class = "ButtonLine">
+					<h2>What is eDNA?</h2>
+					<h4>5. Environmental DNA, or eDNA for short, is DNA that exists in the environment.</h4>
+					<img src="img/edna5.png" width="1000" height="600">
+				</div>
+				<div class="goback__button" onclick="hide_edna3()">&#8678;</div>
+				<div class="next__button" onclick="show_edna3()">&#8680;</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="edna5__layer">
+		<div id="edna_info5">
+			<div class="ButtonBox">
+				<div class = "ButtonLine">
+					<h2>What is eDNA?</h2>
+					<h4>6. When DNA is shed into the environment, through things like losing skin and hair, it becomes eDNA.</h4>
+					<img src="img/edna6.png" width="1000" height="600">
+				</div>
+				<div class="goback__button" onclick="hide_edna4()">&#8678;</div>
+				<div class="next__button" onclick="show_edna4()">&#8680;</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="edna6__layer">
+		<div id="edna_info6">
+			<div class="ButtonBox">
+				<div class = "ButtonLine">
+					<h2>What is eDNA?</h2>
+					<h4>7. Then when a sample is taken from the environment, the eDNA in the sample can be used to identify the species that live there.</h4>
+					<img src="img/edna7.png" width="1000" height="600">
+				</div>
+				<div class="goback__button" onclick="hide_edna5()">&#8678;</div>
+				<div class="next__button" onclick="show_edna5()">&#8680;</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="edna7__layer">
+		<div id="edna_info7">
+			<div class="ButtonBox">
+				<div class = "ButtonLine">
+					<h2>What is eDNA?</h2>
+					<h4>8. Environmental samples can include things such as water and soil, or even snow and air.</h4>
+					<img src="img/edna8.png" width="1000" height="600">
+				</div>
+				<div class="goback__button" onclick="hide_edna6()">&#8678;</div>
+				<button class="backtomain"><a href="index.html">Back to main page</a></button>
+			</div>
+		</div>
+	</div>
+
+
+
 	<br>
 	<br>
 	<br>
@@ -152,12 +230,12 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <ul class="social-network">
-            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-            <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+					<ul class="social-network">
+            <li><a href="http://www.facebook.com/home.php#!/CharlesDarwinUniversity" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://twitter.com/CDUni" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://www.linkedin.com/company/charles-darwin-university?trk=copro_tab" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/charlesdarwinuniversity/" data-placement="top" title="Pinterest"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCKCcLzf49llRjQbNq3llFCg" data-placement="top" title="Google plus"><i class="fa fa-youtube"></i></a></li>
           </ul>
         </div>
       </div>
@@ -165,7 +243,6 @@
   </div>
   </footer>
 </div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->

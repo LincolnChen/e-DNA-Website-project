@@ -96,15 +96,43 @@ h1,h2, h3, h4, h5, h6 {
 
 
 
-#info__layer {
+#info__layer, #gouldian__layer, #finch_layer, #condition__layer{
 	display: block;
 }
-/*body*/
 
-#edna_info1,#edna_info2,#edna_info3{
+
+
+
+#edna_info,#edna_info2, #edna_info3, #edna_info4, #edna_info5, #edna_info6, #edna_info7{
   display: none;
 }
 
+#gouldian_info, #gouldian_info2, #gouldian_info3, #gouldian_info4{
+	display: none;
+}
+
+#finch_info, #finch_info2, #finch_info3, #finch_info4, #finch_info5{
+	display: none;
+}
+
+#condition_info, #condition_info2, #condition_info3, #condition_info4, #condition_info5, #condition_info6, #condition_info7,
+#condition_info8, #condition_info9, #condition_info10, #condition_info11, #condition_info12, #condition_info13, #condition_info14
+, #condition_info15, #condition_info16, #condition_info17{
+	display: none;
+}
+
+
+.backtomain{
+	width: 150px;
+	height: 35px;
+	float:right;
+	margin: 30px;
+	border-radius: 5px;
+	background-color:#007a87;
+}
+.backtomain a{
+	color: white;
+}
 
 .container {
 	padding:0 20px 0 20px;
