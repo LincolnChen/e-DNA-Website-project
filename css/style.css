@@ -122,6 +122,29 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 
+
+.quiz h2{
+	color: #f5f5f5;
+}
+
+.quiz p{
+	font-size: 16px;
+	color: #f5f5f5;
+}
+
+.button {
+  background-color: #201644;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 .backtomain{
 	width: 150px;
 	height: 35px;
