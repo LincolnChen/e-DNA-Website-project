@@ -26,56 +26,59 @@
 				<div class="CDUTextThree">Select a waterhole and use the clues to find out !</div>
 			</div>
   </div>
-	<div id="info__layer">
+	<div id="game__layer">
 		<div class="gallery-section">
 	      <div class="inner-width">
 	        <div class="gallery">
-
-	          <a href="img/game/waterhole1.png" class="image">
-	            <img src="img/game/waterhole1.png" alt="">
-	          </a>
-
-	          <a href="img/game/waterhole2.png" class="image">
-	            <img src="img/game/waterhole2.png" alt="">
-	          </a>
-
-	          <a href="img/game/waterhole3.png" class="image">
-	            <img src="img/game/waterhole3.png" alt="">
-	          </a>
-
-	          <a href="img/game/waterhole4.png" class="image">
-	            <img src="img/game/waterhole4.png" alt="">
-	          </a>
-
-	          <a href="img/game/waterhole5.png" class="image">
-	            <img src="img/game/waterhole5.png" alt="">
-	          </a>
-
-	          <a href="img/game/waterhole6.png" class="image">
-	            <img src="img/game/waterhole6.png" alt="">
-	          </a>
-
-	          <a href="img/game/waterhole7.png" class="image">
-	            <img src="img/game/waterhole7.png" alt="">
-	          </a>
-
-	          <a href="img/game/waterhole8.png" class="image">
-	            <img src="img/game/waterhole8.png" alt="">
-	          </a>
-
-						<a href="img/game/waterhole9.png" class="image">
-						 <img src="img/game/waterhole9.png" alt="">
-					 </a>
-
-					 <a href="img/game/waterhole10.png" class="image">
-						 <img src="img/game/waterhole10.png" alt="">
-					 </a>
+	          <img src="img/game/waterhole1.png" width="500" height="300" alt=""class="image" onclick="show_info(1)">
+						<img src="img/game/waterhole2.png" width="500" height="300" alt=""class="image" onclick="show_info(2)">
+						<img src="img/game/waterhole3.png" width="500" height="300" alt=""class="image" onclick="show_info(3)">
+						<img src="img/game/waterhole4.png" width="500" height="300" alt=""class="image" onclick="show_info(4)">
+						<img src="img/game/waterhole5.png" width="500" height="300" alt=""class="image" onclick="show_info(5)">
+						<img src="img/game/waterhole6.png" width="500" height="300" alt=""class="image" onclick="show_info(6)">
+						<img src="img/game/waterhole7.png" width="500" height="300" alt=""class="image" onclick="show_info(7)">
+						<img src="img/game/waterhole8.png" width="500" height="300" alt=""class="image" onclick="show_info(8)">
+						<img src="img/game/waterhole9.png" width="500" height="300" alt=""class="image" onclick="show_info(9)">
+						<img src="img/game/waterhole10.png" width="500" height="300" alt=""class="image" onclick="show_info(10)">
 
 	        </div>
 	      </div>
 	    </div>
-		</div>
+	</div>
+	<div id="game_info1">
+		<div class="waterhole">
+			<h2 class="h2-building">Waterhole #1</h2>
+			<h4>Zookeepers are helping scientists try out their new eDNA test in the Gouldian finch aviary at Territory Wildlife Park.</h4>
+			<img src="img/finch1.png" width="1000" height="600"><br><br><br>
+			<h4>The Territory wildlife Park has <strong>55 Gouldian finches</strong> in their aviary.</h4>
+			<img src="img/game/wildlife_finches.png" width="1000" height="600">
+			<h4>(Photo credit: Charles Darwin University. Photographer: Julianne Osborne)</h4><br>
+			<h4>The aviary pond is <strong>small, shaded</strong> and <strong>clean</strong>, with lots of birds.</h4>
+			<img src="img/game/aviary_pond.png" width="1000" height="600"><br><br><br>
+			<h4>The zookeepers use  <strong>clean gloves </strong> and collect <strong>3 samples</strong>.</h4>
+			<img src="img/game/clean_gloves.png" width="1000" height="600">
+			<img src="img/game/game1.png" width="1000" height="600"><br><br>
+			<div class="CDUMostVisited">
+				<div class="CDUTextTwo">Do you think you will find Gouldian finch eDNA in the waterhole?</div>
+			</div>
+			<div id="bhover" class="collapsible" onclick="myFunction()"><strong>Yes</strong>
+				<div id="hcontent" class= "content">
+					<p><strong>Correct!</strong>  This pond is clean, shaded and has lots of birds. Clean gloves were used, and three samples were collected.</p>
+				</div>
+			</div>
+			<div id="bhover2" class="collapsible2" onclick="myFunction2()"><strong>No</strong>
+				<div id="hcontent2" class= "content">
+					<p><strong>Incorrect!</strong>  Try again!</p>
+				</div>
+			</div>
 
+
+
+
+
+
+		</div>
+	</div>
 
 
 
@@ -84,6 +87,7 @@
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script defer src="js/myscript.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/bootstrap.min.js"></script>

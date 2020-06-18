@@ -326,3 +326,35 @@ function hide_condition16() {
   document.getElementById("condition16__layer").style.display = "block";
   document.getElementById("condition_info16").style.display = "none";
 }
+
+
+
+function show_info(x) {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game_info"+x).style.display = "block";
+
+}
+
+function hide_info(x) {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game_info"+x).style.display = "none";
+}
+
+
+function myFunction() {
+  var x = document.getElementById("hcontent");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("hcontent2");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}

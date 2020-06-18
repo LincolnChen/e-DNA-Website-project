@@ -106,10 +106,15 @@ h1,h2, h3, h4, h5, h6 {
 
 }
 
+.waterhole{
+	margin-right: 180px;
+  margin-left: 180px;
+
+}
 
 
 
-#info__layer, #gouldian__layer, #finch_layer, #condition__layer{
+#info__layer, #gouldian__layer, #finch_layer, #condition__layer, #game__layer{
 	display: block;
 }
 
@@ -134,6 +139,46 @@ h1,h2, h3, h4, h5, h6 {
 	display: none;
 }
 
+
+#game_info1{
+	display: none;
+}
+
+#hcontent, #hcontent2{
+	display: none;
+}
+
+
+
+.collapsible{
+	display: block;
+	background-color: #317b87;
+	border-radius: 5px;
+  color: white;
+	margin: 30px;
+	float:left;
+  padding: 10px;
+	width: 40%;
+  border: none;
+	outline: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible2{
+	width: 40%;
+	float:right;
+	color: white;
+	margin: 30px;
+	text-align: center;
+	background-color: #317b87;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
 
 
 .quiz h2{
@@ -216,13 +261,8 @@ h1,h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
-.gallery-section .image img{
-  width: 100%;
-  height: 100%;
-  transition: 0.4s;
-}
-
-.gallery-section .image:hover img{
+.gallery-section .image:hover{
+	transition: 0.6s;
   transform: scale(1.4) rotate(15deg);
 }
 
