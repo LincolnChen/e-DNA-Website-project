@@ -114,7 +114,7 @@ h1,h2, h3, h4, h5, h6 {
 
 
 
-#info__layer, #gouldian__layer, #finch_layer, #condition__layer, #game__layer{
+#info__layer, #gouldian__layer, #finch_layer, #condition__layer, #game__layer, #waterhole1__layer{
 	display: block;
 }
 
@@ -140,9 +140,13 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 
-#game_info1{
+#game_info1, #game_info2,#game_info3,#game_info4,#game_info5{
 	display: none;
 }
+
+
+
+
 
 #hcontent, #hcontent2{
 	display: none;

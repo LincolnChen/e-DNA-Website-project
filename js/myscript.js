@@ -326,19 +326,63 @@ function hide_condition16() {
   document.getElementById("condition16__layer").style.display = "block";
   document.getElementById("condition_info16").style.display = "none";
 }
+//condition ends//
+
+//waterholes start//
 
 
-
-function show_info(x) {
+function show_waterhole1_info() {
   document.getElementById("game__layer").style.display = "none";
-  document.getElementById("game_info"+x).style.display = "block";
-
+  document.getElementById("game_info1").style.display = "block";
 }
 
-function hide_info(x) {
+function hide_waterhole1_info() {
   document.getElementById("game__layer").style.display = "block";
-  document.getElementById("game_info"+x).style.display = "none";
+  document.getElementById("game_info1").style.display = "none";
 }
+
+function show_waterhole1_info1() {
+  document.getElementById("waterhole1__layer").style.display = "none";
+  document.getElementById("game_info2").style.display = "block";
+}
+
+function hide_waterhole1_info1() {
+  document.getElementById("waterhole1__layer").style.display = "block";
+  document.getElementById("game_info2").style.display = "none";
+}
+
+function show_waterhole1_info2() {
+  document.getElementById("waterhole1__layer2").style.display = "none";
+  document.getElementById("game_info3").style.display = "block";
+}
+
+function hide_waterhole1_info2() {
+  document.getElementById("waterhole1__layer2").style.display = "block";
+  document.getElementById("game_info3").style.display = "none";
+}
+
+function show_waterhole1_info3() {
+  document.getElementById("waterhole1__layer3").style.display = "none";
+  document.getElementById("game_info4").style.display = "block";
+}
+
+function hide_waterhole1_info3() {
+  document.getElementById("waterhole1__layer3").style.display = "block";
+  document.getElementById("game_info4").style.display = "none";
+}
+
+function show_waterhole1_info4() {
+  document.getElementById("waterhole1__layer4").style.display = "none";
+  document.getElementById("game_info5").style.display = "block";
+}
+
+function hide_waterhole1_info4() {
+  document.getElementById("waterhole1__layer4").style.display = "block";
+  document.getElementById("game_info5").style.display = "none";
+}
+
+
+
 
 
 function myFunction() {
