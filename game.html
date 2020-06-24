@@ -31,7 +31,7 @@
 	      <div class="inner-width">
 	        <div class="gallery">
 	          <img src="img/game/waterhole1.png" width="500" height="300" alt=""class="image" onclick="show_waterhole1_info()">
-						<img src="img/game/waterhole2.png" width="500" height="300" alt=""class="image" onclick="show_info(20)">
+						<img src="img/game/waterhole2.png" width="500" height="300" alt=""class="image" onclick="show_waterhole2_info()">
 						<img src="img/game/waterhole3.png" width="500" height="300" alt=""class="image" onclick="show_info(30)">
 						<img src="img/game/waterhole4.png" width="500" height="300" alt=""class="image" onclick="show_info(40)">
 						<img src="img/game/waterhole5.png" width="500" height="300" alt=""class="image" onclick="show_info(50)">
@@ -100,7 +100,7 @@
 						<h2 class="h2-building">Waterhole #1</h2>
 						<div class="goback__button" onclick="hide_waterhole1_info4()">&#8678;</div>
 						<button class="backtomain"><a href="game.html">Back to game page</a></button>
-						<img src="img/game/game1.png" width="1000" height="600">
+						<img src="img/game/game1.png" width="1000" height="600"><br><br>
 						<div class="CDUMostVisited">
 							<div class="CDUTextTwo">Do you think you will find Gouldian finch eDNA in the waterhole?</div>
 						</div>
@@ -114,13 +114,82 @@
 								<p><strong>Incorrect!</strong>  Try again!</p>
 							</div>
 						</div>
-
 			</div>
-
 		</div>
 	</div>
 
+	<div id="waterhole2__layer">
+		<div id="game2_info1">
+			<div class="waterhole">
+						<h2 class="h2-building">Waterhole #2</h2>
+						<h4>1. Scientists from Charles Darwin university are now searching for wild Gouldian finch eDNA in real waterholes.</h4>
+						<img src="img/game/scientist.png" width="1000" height="600">
+						<div class="goback__button" onclick="hide_waterhole2_info()">&#8678;</div>
+						<div class="next__button" onclick="show_waterhole2_info1()">&#8680;</div>
+			</div>
+		</div>
+	</div>
 
+	<div id="waterhole2__layer2">
+		<div id="game2_info2">
+			<div class="waterhole">
+						<h2 class="h2-building">Waterhole #2</h2>
+						<h4>2. The scientists counted  <strong>100 Gouldian finches </strong> using binoculars.</h4>
+						<img src="img/game/bird.png" width="1000" height="600">
+						<h5>(Photo credit: Eckhard Garve)</h5>
+						<div class="goback__button" onclick="hide_waterhole2_info1()">&#8678;</div>
+						<div class="next__button" onclick="show_waterhole2_info2()">&#8680;</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="waterhole2__layer3">
+		<div id="game2_info3">
+			<div class="waterhole">
+						<h2 class="h2-building">Waterhole #2</h2>
+						<h4>3. The waterhole is exposed to <strong>lots of sunlight </strong>.</h4>
+						<img src="img/game/sun.png" width="1000" height="600">
+						<div class="goback__button" onclick="hide_waterhole2_info2()">&#8678;</div>
+						<div class="next__button" onclick="show_waterhole2_info3()">&#8680;</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="waterhole2__layer4">
+		<div id="game2_info4">
+			<div class="waterhole">
+						<h2 class="h2-building">Waterhole #2</h2>
+						<h4>4. The scientists use  <strong>clean gloves </strong> and collect <strong>3 samples</strong>.</h4>
+						<img src="img/game/gloves.png" width="1000" height="600">
+						<div class="goback__button" onclick="hide_waterhole2_info3()">&#8678;</div>
+						<div class="next__button" onclick="show_waterhole2_info4()">&#8680;</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="waterhole2__layer5">
+		<div id="game2_info5">
+			<div class="waterhole">
+						<h2 class="h2-building">Waterhole #2</h2>
+						<div class="goback__button" onclick="hide_waterhole2_info4()">&#8678;</div>
+						<button class="backtomain"><a href="game.html">Back to game page</a></button>
+						<img src="img/game/game2.png" width="1000" height="600"><br><br>
+						<div class="CDUMostVisited">
+							<div class="CDUTextTwo">Do you think you will find Gouldian finch eDNA in the waterhole?</div>
+						</div>
+						<div id="bhover" class="collapsible" onclick="myFunction3()"><strong>Yes</strong>
+							<div id="hcontent3" class= "content">
+								<p><strong>Incorrect!</strong> Try again!</p>
+							</div>
+						</div>
+						<div id="bhover2" class="collapsible2" onclick="myFunction4()"><strong>No</strong>
+							<div id="hcontent4" class= "content">
+								<p><strong>Correct!</strong> This waterhole has too much sunlight! The eDNA here is poor quality and cannot be detected by the test!</p>
+							</div>
+						</div>
+			</div>
+		</div>
+	</div>
 
 
 </div>
