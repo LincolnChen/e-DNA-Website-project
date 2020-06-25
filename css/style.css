@@ -21,6 +21,10 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+.overview p{
+	font-size: 20px;
+	color: #201644
+}
 
 
 /*text styles */
@@ -79,30 +83,28 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 .goback__button{
-	width: 35px;
-	height: 35px;
+	width: 70px;
+	height: 40px;
 	font-size: 30px;
 	float:left;
-	margin: 30px;
+	margin: 50px;
 	text-align: center;
 	background-color: #317b87;
 	border-radius: 5px;
 	color: white;
-
 
 }
 
 .next__button{
-	width: 35px;
-	height: 35px;
+	width: 70px;
+	height: 40px;
 	text-align: center;
 	float:right;
 	color: white;
-	margin: 30px;
+	margin: 50px;
 	border-radius: 5px;
 	font-size: 30px;
 	background-color: #317b87;
-
 
 }
 
@@ -110,6 +112,10 @@ h1,h2, h3, h4, h5, h6 {
 	margin-right: 180px;
   margin-left: 180px;
 
+}
+.waterhole p{
+	font-size: 20px;
+	color: #201644
 }
 
 
@@ -207,13 +213,27 @@ h1,h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+
+.gobacklast__button{
+	width: 70px;
+	height: 40px;
+	font-size: 30px;
+	float:left;
+	margin: 10px;
+	text-align: center;
+	background-color: #317b87;
+	border-radius: 5px;
+	color: white;
+}
+
 .backtomain{
 	width: 150px;
-	height: 35px;
+	height: 40px;
 	float:right;
-	margin: 30px;
+	margin: 10px;
 	border-radius: 5px;
 	background-color:#007a87;
+	text-align: center;
 }
 .backtomain a{
 	color: white;
