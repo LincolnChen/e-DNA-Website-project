@@ -23,7 +23,6 @@ h1,h2, h3, h4, h5, h6 {
 
 .overview p{
 	font-size: 20px;
-	color: #201644
 }
 
 
@@ -53,6 +52,11 @@ h1,h2, h3, h4, h5, h6 {
 /* Box Styles */
 
 .BoxBody{
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.BoxBodyGame{
   margin-right: 180px;
   margin-left: 180px;
 }
@@ -75,6 +79,12 @@ h1,h2, h3, h4, h5, h6 {
 .ButtonLine{
   padding-top: 10px;
   padding-left: 10px;
+}
+
+.ButtonLine p{
+	color:#201644;
+	font-size: 20px;
+
 }
 
 .next{
@@ -230,12 +240,26 @@ h1,h2, h3, h4, h5, h6 {
 	width: 150px;
 	height: 40px;
 	float:right;
+	margin: 50px;
+	border-radius: 5px;
+	background-color:#007a87;
+	text-align: center;
+}
+
+.backtomain a{
+	color: white;
+}
+
+.backtogame{
+	width: 150px;
+	height: 40px;
+	float:right;
 	margin: 10px;
 	border-radius: 5px;
 	background-color:#007a87;
 	text-align: center;
 }
-.backtomain a{
+.backtogame a{
 	color: white;
 }
 
