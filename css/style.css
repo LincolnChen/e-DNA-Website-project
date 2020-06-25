@@ -242,11 +242,12 @@ h1,h2, h3, h4, h5, h6 {
 	float:right;
 	margin: 50px;
 	border-radius: 5px;
+	color: white;
 	background-color:#007a87;
 	text-align: center;
 }
 
-.backtomain a{
+.backtomain value{
 	color: white;
 }
 
@@ -1292,18 +1293,13 @@ footer .widget .social-network {
 }
 .box-area{
 	padding: 0 0;/* padding-top: 0; */
-	min-height: 199px;
 	text-align: center;
 	padding: 0px 20px;
 	color: #fff;
 	display: block;
-	text-align: center;
-	float: left;
 	margin: 15px;
-	border-style: ridge;
-	border-radius: 5px;
-	box-shadow: 5px 10px #cccccc ;
 	transition: 0.2s linear;
+	font-size: 20px;
 }
 /* --- Map --- */
 .map{
@@ -1865,14 +1861,14 @@ padding-top: 3px;
 	}
 	.box-content:after {
 		/* background: #EF3231; */
-		/* width: 89px; */
-		/* height: 230px; */
-		/* content: ''; */
-		/* position: absolute; */
-		/* left: -129px; */
+		width: 89px;
+		height: 230px;
+		content: '';
+		position: absolute;
+		left: -129px;
 		-ms-transform: rotate(45deg);
-		/* -webkit-transform: rotate(45deg); */
-		/* transform: rotate(45deg); */
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
 	}
 	.flexslider .slide-caption {
 		width: 90%;
