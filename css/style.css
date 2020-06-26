@@ -275,8 +275,30 @@ h1,h2, h3, h4, h5, h6 {
 	padding:0;
 }
 
+.sponsors__title{
+	color: black;
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size: 35px;
+	font-weight: normal;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .gallery-section{
   width: 100%;
@@ -653,7 +675,7 @@ bottom: -30px;
 .text-center img {
 margin: auto;
 }
-.aboutUs{padding: 50px 0 0;background:#317b87;color: #1B1B1B;}
+.gamesection{padding: 50px 0 0;background:#317b87;color: #1B1B1B;}
 img.img-center {
 margin: 0 auto;
 display: block;
