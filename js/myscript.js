@@ -434,6 +434,59 @@ function hide_waterhole2_info4() {
   document.getElementById("game2_info5").style.display = "none";
 }
 
+//waterhole2 ends//
+
+//waterhole3 start//
+function show_waterhole3_info() {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game3_info1").style.display = "block";
+}
+
+function hide_waterhole3_info() {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game3_info1").style.display = "none";
+}
+
+function show_waterhole3_info1() {
+  document.getElementById("waterhole3__layer").style.display = "none";
+  document.getElementById("game3_info2").style.display = "block";
+}
+
+function hide_waterhole3_info1() {
+  document.getElementById("waterhole3__layer").style.display = "block";
+  document.getElementById("game3_info2").style.display = "none";
+}
+
+function show_waterhole3_info2() {
+  document.getElementById("waterhole3__layer2").style.display = "none";
+  document.getElementById("game3_info3").style.display = "block";
+}
+
+function hide_waterhole3_info2() {
+  document.getElementById("waterhole3__layer2").style.display = "block";
+  document.getElementById("game3_info3").style.display = "none";
+}
+
+function show_waterhole3_info3() {
+  document.getElementById("waterhole3__layer3").style.display = "none";
+  document.getElementById("game3_info4").style.display = "block";
+}
+
+function hide_waterhole3_info3() {
+  document.getElementById("waterhole3__layer3").style.display = "block";
+  document.getElementById("game3_info4").style.display = "none";
+}
+
+function show_waterhole3_info4() {
+  document.getElementById("waterhole3__layer4").style.display = "none";
+  document.getElementById("game3_info5").style.display = "block";
+}
+
+function hide_waterhole3_info4() {
+  document.getElementById("waterhole3__layer4").style.display = "block";
+  document.getElementById("game3_info5").style.display = "none";
+}
+
 
 
 
@@ -466,6 +519,24 @@ function myFunction3() {
 
 function myFunction4() {
   var x = document.getElementById("hcontent4");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction5() {
+  var x = document.getElementById("hcontent5");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction6() {
+  var x = document.getElementById("hcontent6");
   if (x.style.display === "none")
     {x.style.display = "block";}
    else {
