@@ -488,6 +488,65 @@ function hide_waterhole3_info4() {
 }
 
 
+//waterhole3 ends//
+
+//waterhole4 start//
+function show_waterhole4_info() {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game4_info1").style.display = "block";
+}
+
+function hide_waterhole4_info() {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game4_info1").style.display = "none";
+}
+
+function show_waterhole4_info1() {
+  document.getElementById("waterhole4__layer").style.display = "none";
+  document.getElementById("game4_info2").style.display = "block";
+}
+
+function hide_waterhole4_info1() {
+  document.getElementById("waterhole4__layer").style.display = "block";
+  document.getElementById("game4_info2").style.display = "none";
+}
+
+function show_waterhole4_info2() {
+  document.getElementById("waterhole4__layer2").style.display = "none";
+  document.getElementById("game4_info3").style.display = "block";
+}
+
+function hide_waterhole4_info2() {
+  document.getElementById("waterhole4__layer2").style.display = "block";
+  document.getElementById("game4_info3").style.display = "none";
+}
+
+function show_waterhole4_info3() {
+  document.getElementById("waterhole4__layer3").style.display = "none";
+  document.getElementById("game4_info4").style.display = "block";
+}
+
+function hide_waterhole4_info3() {
+  document.getElementById("waterhole4__layer3").style.display = "block";
+  document.getElementById("game4_info4").style.display = "none";
+}
+
+function show_waterhole4_info4() {
+  document.getElementById("waterhole4__layer4").style.display = "none";
+  document.getElementById("game4_info5").style.display = "block";
+}
+
+function hide_waterhole4_info4() {
+  document.getElementById("waterhole4__layer4").style.display = "block";
+  document.getElementById("game4_info5").style.display = "none";
+}
+
+
+
+
+
+
+
 
 
 function myFunction() {
@@ -537,6 +596,24 @@ function myFunction5() {
 
 function myFunction6() {
   var x = document.getElementById("hcontent6");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction7() {
+  var x = document.getElementById("hcontent7");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction8() {
+  var x = document.getElementById("hcontent8");
   if (x.style.display === "none")
     {x.style.display = "block";}
    else {
