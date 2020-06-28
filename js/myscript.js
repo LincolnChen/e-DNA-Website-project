@@ -486,8 +486,6 @@ function hide_waterhole3_info4() {
   document.getElementById("waterhole3__layer4").style.display = "block";
   document.getElementById("game3_info5").style.display = "none";
 }
-
-
 //waterhole3 ends//
 
 //waterhole4 start//
@@ -540,6 +538,61 @@ function hide_waterhole4_info4() {
   document.getElementById("waterhole4__layer4").style.display = "block";
   document.getElementById("game4_info5").style.display = "none";
 }
+
+//waterhole4 ends//
+
+//waterhole5 start//
+function show_waterhole5_info() {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game5_info1").style.display = "block";
+}
+
+function hide_waterhole5_info() {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game5_info1").style.display = "none";
+}
+
+function show_waterhole5_info1() {
+  document.getElementById("waterhole5__layer").style.display = "none";
+  document.getElementById("game5_info2").style.display = "block";
+}
+
+function hide_waterhole5_info1() {
+  document.getElementById("waterhole5__layer").style.display = "block";
+  document.getElementById("game5_info2").style.display = "none";
+}
+
+function show_waterhole5_info2() {
+  document.getElementById("waterhole5__layer2").style.display = "none";
+  document.getElementById("game5_info3").style.display = "block";
+}
+
+function hide_waterhole5_info2() {
+  document.getElementById("waterhole5__layer2").style.display = "block";
+  document.getElementById("game5_info3").style.display = "none";
+}
+
+function show_waterhole5_info3() {
+  document.getElementById("waterhole5__layer3").style.display = "none";
+  document.getElementById("game5_info4").style.display = "block";
+}
+
+function hide_waterhole5_info3() {
+  document.getElementById("waterhole5__layer3").style.display = "block";
+  document.getElementById("game5_info4").style.display = "none";
+}
+
+function show_waterhole5_info4() {
+  document.getElementById("waterhole5__layer4").style.display = "none";
+  document.getElementById("game5_info5").style.display = "block";
+}
+
+function hide_waterhole5_info4() {
+  document.getElementById("waterhole5__layer4").style.display = "block";
+  document.getElementById("game5_info5").style.display = "none";
+}
+
+
 
 
 
@@ -614,6 +667,24 @@ function myFunction7() {
 
 function myFunction8() {
   var x = document.getElementById("hcontent8");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction9() {
+  var x = document.getElementById("hcontent9");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction10() {
+  var x = document.getElementById("hcontent10");
   if (x.style.display === "none")
     {x.style.display = "block";}
    else {

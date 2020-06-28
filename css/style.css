@@ -145,7 +145,7 @@ h1,h2, h3, h4, h5, h6 {
 
 
 #info__layer, #gouldian__layer, #finch_layer, #condition__layer, #game__layer, #waterhole1__layer, #waterhole2__layer, #waterhole3__layer
-, #waterhole4__layer{
+, #waterhole4__layer, #waterhole5__layer{
 	display: block;
 }
 
@@ -186,7 +186,12 @@ h1,h2, h3, h4, h5, h6 {
 	display: none;
 }
 
-#hcontent, #hcontent2, #hcontent3, #hcontent4, #hcontent5, #hcontent6, #hcontent7, #hcontent8{
+#game5_info1, #game5_info2, #game5_info3, #game5_info4, #game5_info5{
+	display: none;
+}
+
+
+#hcontent, #hcontent2, #hcontent3, #hcontent4, #hcontent5, #hcontent6, #hcontent7, #hcontent8, #hcontent9, #hcontent10{
 	display: none;
 }
 
