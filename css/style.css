@@ -145,7 +145,7 @@ h1,h2, h3, h4, h5, h6 {
 
 
 #info__layer, #gouldian__layer, #finch_layer, #condition__layer, #game__layer, #waterhole1__layer, #waterhole2__layer, #waterhole3__layer
-, #waterhole4__layer, #waterhole5__layer{
+, #waterhole4__layer, #waterhole5__layer, #waterhole6__layer, #waterhole7__layer, #waterhole8__layer, #waterhole9__layer, #waterhole10__layer{
 	display: block;
 }
 
@@ -170,7 +170,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 
-#game_info1, #game_info2,#game_info3,#game_info4,#game_info5{
+#game_info1, #game_info2, #game_info3, #game_info4, #game_info5{
 	display: none;
 }
 
@@ -190,8 +190,29 @@ h1,h2, h3, h4, h5, h6 {
 	display: none;
 }
 
+#game6_info1, #game6_info2, #game6_info3, #game6_info4, #game6_info5{
+	display: none;
+}
 
-#hcontent, #hcontent2, #hcontent3, #hcontent4, #hcontent5, #hcontent6, #hcontent7, #hcontent8, #hcontent9, #hcontent10{
+#game7_info1, #game7_info2, #game7_info3, #game7_info4, #game7_info5{
+	display: none;
+}
+
+#game8_info1, #game8_info2, #game8_info3, #game8_info4, #game8_info5{
+	display: none;
+}
+
+#game9_info1, #game9_info2, #game9_info3, #game9_info4, #game9_info5{
+	display: none;
+}
+
+#game10_info1, #game10_info2, #game10_info3, #game10_info4, #game10_info5{
+	display: none;
+}
+
+
+#hcontent, #hcontent2, #hcontent3, #hcontent4, #hcontent5, #hcontent6, #hcontent7, #hcontent8, #hcontent9, #hcontent10
+, #hcontent11, #hcontent12, #hcontent13, #hcontent14, #hcontent15, #hcontent16, #hcontent17, #hcontent18, #hcontent19, #hcontent20{
 	display: none;
 }
 
@@ -271,9 +292,6 @@ h1,h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-.backtomain value{
-	color: white;
-}
 
 .backtogame{
 	width: 150px;
@@ -281,11 +299,9 @@ h1,h2, h3, h4, h5, h6 {
 	float:right;
 	margin: 10px;
 	border-radius: 5px;
+	color: white;
 	background-color:#007a87;
 	text-align: center;
-}
-.backtogame a{
-	color: white;
 }
 
 .container {

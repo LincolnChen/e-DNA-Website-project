@@ -591,7 +591,266 @@ function hide_waterhole5_info4() {
   document.getElementById("waterhole5__layer4").style.display = "block";
   document.getElementById("game5_info5").style.display = "none";
 }
+//waterhole5 ends//
 
+//waterhole6 start//
+function show_waterhole6_info() {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game6_info1").style.display = "block";
+}
+
+function hide_waterhole6_info() {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game6_info1").style.display = "none";
+}
+
+function show_waterhole6_info1() {
+  document.getElementById("waterhole6__layer").style.display = "none";
+  document.getElementById("game6_info2").style.display = "block";
+}
+
+function hide_waterhole6_info1() {
+  document.getElementById("waterhole6__layer").style.display = "block";
+  document.getElementById("game6_info2").style.display = "none";
+}
+
+function show_waterhole6_info2() {
+  document.getElementById("waterhole6__layer2").style.display = "none";
+  document.getElementById("game6_info3").style.display = "block";
+}
+
+function hide_waterhole6_info2() {
+  document.getElementById("waterhole6__layer2").style.display = "block";
+  document.getElementById("game6_info3").style.display = "none";
+}
+
+function show_waterhole6_info3() {
+  document.getElementById("waterhole6__layer3").style.display = "none";
+  document.getElementById("game6_info4").style.display = "block";
+}
+
+function hide_waterhole6_info3() {
+  document.getElementById("waterhole6__layer3").style.display = "block";
+  document.getElementById("game6_info4").style.display = "none";
+}
+
+function show_waterhole6_info4() {
+  document.getElementById("waterhole6__layer4").style.display = "none";
+  document.getElementById("game6_info5").style.display = "block";
+}
+
+function hide_waterhole6_info4() {
+  document.getElementById("waterhole6__layer4").style.display = "block";
+  document.getElementById("game6_info5").style.display = "none";
+}
+//waterhole6 ends//
+
+//waterhole7 start//
+function show_waterhole7_info() {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game7_info1").style.display = "block";
+}
+
+function hide_waterhole7_info() {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game7_info1").style.display = "none";
+}
+
+function show_waterhole7_info1() {
+  document.getElementById("waterhole7__layer").style.display = "none";
+  document.getElementById("game7_info2").style.display = "block";
+}
+
+function hide_waterhole7_info1() {
+  document.getElementById("waterhole7__layer").style.display = "block";
+  document.getElementById("game7_info2").style.display = "none";
+}
+
+function show_waterhole7_info2() {
+  document.getElementById("waterhole7__layer2").style.display = "none";
+  document.getElementById("game7_info3").style.display = "block";
+}
+
+function hide_waterhole7_info2() {
+  document.getElementById("waterhole7__layer2").style.display = "block";
+  document.getElementById("game7_info3").style.display = "none";
+}
+
+function show_waterhole7_info3() {
+  document.getElementById("waterhole7__layer3").style.display = "none";
+  document.getElementById("game7_info4").style.display = "block";
+}
+
+function hide_waterhole7_info3() {
+  document.getElementById("waterhole7__layer3").style.display = "block";
+  document.getElementById("game7_info4").style.display = "none";
+}
+
+function show_waterhole7_info4() {
+  document.getElementById("waterhole7__layer4").style.display = "none";
+  document.getElementById("game7_info5").style.display = "block";
+}
+
+function hide_waterhole7_info4() {
+  document.getElementById("waterhole7__layer4").style.display = "block";
+  document.getElementById("game7_info5").style.display = "none";
+}
+//waterhole7 ends//
+
+//waterhole8 start//
+function show_waterhole8_info() {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game8_info1").style.display = "block";
+}
+
+function hide_waterhole8_info() {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game8_info1").style.display = "none";
+}
+
+function show_waterhole8_info1() {
+  document.getElementById("waterhole8__layer").style.display = "none";
+  document.getElementById("game8_info2").style.display = "block";
+}
+
+function hide_waterhole7_info1() {
+  document.getElementById("waterhole7__layer").style.display = "block";
+  document.getElementById("game7_info2").style.display = "none";
+}
+
+function show_waterhole8_info2() {
+  document.getElementById("waterhole8__layer2").style.display = "none";
+  document.getElementById("game8_info3").style.display = "block";
+}
+
+function hide_waterhole8_info2() {
+  document.getElementById("waterhole8__layer2").style.display = "block";
+  document.getElementById("game7_info3").style.display = "none";
+}
+
+function show_waterhole8_info3() {
+  document.getElementById("waterhole8__layer3").style.display = "none";
+  document.getElementById("game8_info4").style.display = "block";
+}
+
+function hide_waterhole8_info3() {
+  document.getElementById("waterhole8__layer3").style.display = "block";
+  document.getElementById("game8_info4").style.display = "none";
+}
+
+function show_waterhole8_info4() {
+  document.getElementById("waterhole8__layer4").style.display = "none";
+  document.getElementById("game8_info5").style.display = "block";
+}
+
+function hide_waterhole8_info4() {
+  document.getElementById("waterhole8__layer4").style.display = "block";
+  document.getElementById("game8_info5").style.display = "none";
+}
+//waterhole8 ends//
+
+//waterhole9 start//
+function show_waterhole9_info() {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game9_info1").style.display = "block";
+}
+
+function hide_waterhole9_info() {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game9_info1").style.display = "none";
+}
+
+function show_waterhole9_info1() {
+  document.getElementById("waterhole9__layer").style.display = "none";
+  document.getElementById("game9_info2").style.display = "block";
+}
+
+function hide_waterhole9_info1() {
+  document.getElementById("waterhole9__layer").style.display = "block";
+  document.getElementById("game9_info2").style.display = "none";
+}
+
+function show_waterhole9_info2() {
+  document.getElementById("waterhole9__layer2").style.display = "none";
+  document.getElementById("game9_info3").style.display = "block";
+}
+
+function hide_waterhole9_info2() {
+  document.getElementById("waterhole9__layer2").style.display = "block";
+  document.getElementById("game9_info3").style.display = "none";
+}
+
+function show_waterhole9_info3() {
+  document.getElementById("waterhole9__layer3").style.display = "none";
+  document.getElementById("game9_info4").style.display = "block";
+}
+
+function hide_waterhole9_info3() {
+  document.getElementById("waterhole9__layer3").style.display = "block";
+  document.getElementById("game9_info4").style.display = "none";
+}
+
+function show_waterhole9_info4() {
+  document.getElementById("waterhole9__layer4").style.display = "none";
+  document.getElementById("game9_info5").style.display = "block";
+}
+
+function hide_waterhole9_info4() {
+  document.getElementById("waterhole9__layer4").style.display = "block";
+  document.getElementById("game9_info5").style.display = "none";
+}
+//waterhole9 ends//
+
+//waterhole10 start//
+function show_waterhole10_info() {
+  document.getElementById("game__layer").style.display = "none";
+  document.getElementById("game10_info1").style.display = "block";
+}
+
+function hide_waterhole10_info() {
+  document.getElementById("game__layer").style.display = "block";
+  document.getElementById("game10_info1").style.display = "none";
+}
+
+function show_waterhole10_info1() {
+  document.getElementById("waterhole10__layer").style.display = "none";
+  document.getElementById("game10_info2").style.display = "block";
+}
+
+function hide_waterhole10_info1() {
+  document.getElementById("waterhole10__layer").style.display = "block";
+  document.getElementById("game10_info2").style.display = "none";
+}
+
+function show_waterhole10_info2() {
+  document.getElementById("waterhole10__layer2").style.display = "none";
+  document.getElementById("game10_info3").style.display = "block";
+}
+
+function hide_waterhole10_info2() {
+  document.getElementById("waterhole10__layer2").style.display = "block";
+  document.getElementById("game10_info3").style.display = "none";
+}
+
+function show_waterhole10_info3() {
+  document.getElementById("waterhole10__layer3").style.display = "none";
+  document.getElementById("game10_info4").style.display = "block";
+}
+
+function hide_waterhole10_info3() {
+  document.getElementById("waterhole10__layer3").style.display = "block";
+  document.getElementById("game10_info4").style.display = "none";
+}
+
+function show_waterhole10_info4() {
+  document.getElementById("waterhole10__layer4").style.display = "none";
+  document.getElementById("game10_info5").style.display = "block";
+}
+
+function hide_waterhole10_info4() {
+  document.getElementById("waterhole10__layer4").style.display = "block";
+  document.getElementById("game10_info5").style.display = "none";
+}
 
 
 
@@ -685,6 +944,95 @@ function myFunction9() {
 
 function myFunction10() {
   var x = document.getElementById("hcontent10");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction11() {
+  var x = document.getElementById("hcontent11");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction12() {
+  var x = document.getElementById("hcontent12");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction13() {
+  var x = document.getElementById("hcontent13");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction14() {
+  var x = document.getElementById("hcontent14");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction15() {
+  var x = document.getElementById("hcontent15");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction16() {
+  var x = document.getElementById("hcontent16");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction17() {
+  var x = document.getElementById("hcontent17");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction18() {
+  var x = document.getElementById("hcontent18");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+function myFunction19() {
+  var x = document.getElementById("hcontent19");
+  if (x.style.display === "none")
+    {x.style.display = "block";}
+   else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction20() {
+  var x = document.getElementById("hcontent20");
   if (x.style.display === "none")
     {x.style.display = "block";}
    else {
