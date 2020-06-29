@@ -3,6 +3,10 @@
 @import url('font-awesome.css');
 @import url('animate.css');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
@@ -53,6 +57,7 @@ h1,h2, h3, h4, h5, h6 {
   padding-bottom: 10px;
   font-size: 16px;
 }
+
 
 /* Box Styles */
 
