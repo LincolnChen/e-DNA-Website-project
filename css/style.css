@@ -23,6 +23,10 @@ h1,h2, h3, h4, h5, h6 {
 
 .overview p{
 	font-size: 22px;
+	font-weight:300;
+	line-height:1.6em;
+	color: black;
+	font-family: sans-serif;
 
 }
 
@@ -627,6 +631,16 @@ display: inline-block;
 	margin-bottom: 15px;
 	text-transform: capitalize;
 	font-size: 45px;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+.flex-caption p{
+	color: #ffffff;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+	font-size: 15px;
 	font-weight: normal;
 	font-weight: bold;
 }
