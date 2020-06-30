@@ -853,189 +853,181 @@ function hide_waterhole10_info4() {
 }
 
 
-
-
-
-
-
-
-
-
 function myFunction() {
   var x = document.getElementById("hcontent");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction2() {
   var x = document.getElementById("hcontent2");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction3() {
   var x = document.getElementById("hcontent3");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction4() {
   var x = document.getElementById("hcontent4");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction5() {
   var x = document.getElementById("hcontent5");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction6() {
   var x = document.getElementById("hcontent6");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction7() {
   var x = document.getElementById("hcontent7");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction8() {
   var x = document.getElementById("hcontent8");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction9() {
   var x = document.getElementById("hcontent9");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction10() {
   var x = document.getElementById("hcontent10");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction11() {
   var x = document.getElementById("hcontent11");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction12() {
   var x = document.getElementById("hcontent12");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction13() {
   var x = document.getElementById("hcontent13");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction14() {
   var x = document.getElementById("hcontent14");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction15() {
   var x = document.getElementById("hcontent15");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction16() {
   var x = document.getElementById("hcontent16");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction17() {
   var x = document.getElementById("hcontent17");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction18() {
   var x = document.getElementById("hcontent18");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 function myFunction19() {
   var x = document.getElementById("hcontent19");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
 
 function myFunction20() {
   var x = document.getElementById("hcontent20");
-  if (x.style.display === "none")
-    {x.style.display = "block";}
+  if (x.style.display === "block")
+    {x.style.display = "none";}
    else {
-    x.style.display = "none";
+    x.style.display = "block";
   }
 }
