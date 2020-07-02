@@ -58,12 +58,21 @@ h1,h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 
+.topicimg{
+  position: static;
+}
+
 
 /* Box Styles */
 
 .BoxBody{
   margin-right: 300px;
   margin-left: 300px;
+}
+
+.Box{
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
 .BoxBodyGame{
@@ -95,6 +104,11 @@ h1,h2, h3, h4, h5, h6 {
 	color:#201644;
 	font-size: 20px;
 
+}
+
+.waterhole{
+  padding-bottom: 10px;
+  padding-left: 19px;
 }
 
 .btn-primary,
@@ -141,17 +155,6 @@ h1,h2, h3, h4, h5, h6 {
 	background-color: #317b87;
 
 }
-
-.waterhole{
-	margin-right: 180px;
-  margin-left: 180px;
-
-}
-.waterhole p{
-	font-size: 20px;
-	color: #201644
-}
-
 
 
 #info__layer, #gouldian__layer, #finch_layer, #condition__layer, #game__layer, #waterhole1__layer, #waterhole2__layer, #waterhole3__layer
