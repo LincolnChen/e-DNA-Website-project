@@ -394,6 +394,7 @@ h1,h2, h3, h4, h5, h6 {
   .gallery-section .image{
     flex: 33.33%;
   }
+
 }
 
 @media screen and (max-width:768px) {
@@ -2003,6 +2004,21 @@ padding-top: 3px;
 		float:left;
 		margin-top:20px;
 	}
+
+  .BoxBodyGame{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .CDUTextTwo{
+    font-size: 2rem;
+  }
+
+  .CDUTextThree{
+    font-size: 1.5rem;
+  }
+
 
 
 	.search{
