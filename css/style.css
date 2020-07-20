@@ -26,6 +26,53 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+.image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  overflow: hidden;
+  cursor: pointer;
+  flex: 25%;
+  padding: 0 200px;
+	position: relative;
+	zoom: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+  .image{
+    flex-direction: column;
+    padding: 0;
+    flex: 50%;
+
+  }
+}
+
+@media screen and (max-width:960px) {
+  .image{
+    flex: 33.33%;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .image{
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .image{
+    flex: 100%;
+  }
+}
 
 
 .overview p{
@@ -402,6 +449,7 @@ h1,h2, h3, h4, h5, h6 {
   overflow: hidden;
   cursor: pointer;
 }
+
 
 .gallery-section .image:hover{
 	transition: 0.6s;
