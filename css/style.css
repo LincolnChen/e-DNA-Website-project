@@ -196,7 +196,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 .goback__button{
-	width: 70px;
+	width: 80px;
 	height: 40px;
 	font-size: 30px;
 	float:left;
@@ -209,7 +209,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 .next__button{
-	width: 70px;
+	width: 80px;
 	height: 40px;
 	text-align: center;
 	float:right;
@@ -220,6 +220,19 @@ h1,h2, h3, h4, h5, h6 {
 	background-color: #317b87;
 
 }
+
+.backtohome{
+  width: 150px;
+  height: 40px;
+  float:right;
+  margin: 50px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+
+}
+
+
 
 
 #info__layer, #gouldian__layer, #finch_layer, #condition__layer, #game__layer, #waterhole1__layer, #waterhole2__layer, #waterhole3__layer
