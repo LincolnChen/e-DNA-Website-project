@@ -2078,11 +2078,66 @@ padding-top: 3px;
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 812px) {
 	.bottom-article a.pull-right {
 		float:left;
 		margin-top:20px;
 	}
+
+  .BoxBody{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .topicimg{
+    width: 320px;
+    height: 200px;
+  }
+
+  .goback__button{
+  	width: 80px;
+  	height: 40px;
+  	font-size: 30px;
+  	float:left;
+  	margin: 30px;
+  	text-align: center;
+  	background-color: #317b87;
+  	border-radius: 5px;
+  	color: white;
+
+  }
+
+  .next__button{
+  	width: 80px;
+  	height: 40px;
+  	text-align: center;
+  	float:right;
+  	color: white;
+  	margin: 30px;
+  	border-radius: 5px;
+  	font-size: 30px;
+  	background-color: #317b87;
+
+  }
+
+  .backtomain{
+  	width: 150px;
+  	height: 40px;
+  	float:right;
+  	margin: 30px;
+  	border-radius: 5px;
+  	color: white;
+  	background-color:#007a87;
+  	text-align: center;
+  }
+
+
+  .ButtonBox{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
   .BoxBodyGame{
     width: 100%;
