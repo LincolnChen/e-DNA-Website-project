@@ -26,10 +26,15 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
-.image img {
-  display: block;
-  height: auto;
-  width: 100%;
+.team_image{
+  width: 50%;
+  display: inline-block;
+}
+
+.clm{
+  float: left;
+  width: 50%;
+  padding: 3px;
 }
 
 .images {
@@ -431,6 +436,12 @@ h1,h2, h3, h4, h5, h6 {
   display: table;
 }
 
+.team-section{
+  width: 100%;
+  padding: 60px 0;
+  background: #f1f1f1;
+}
+
 .gallery-section{
   width: 100%;
   padding: 60px 0;
@@ -473,6 +484,12 @@ h1,h2, h3, h4, h5, h6 {
   .gallery-section .image{
     flex: 33.33%;
   }
+  .clm{
+    width: 100%;
+    display: inline-block;
+  }
+
+
 
 }
 
@@ -2151,6 +2168,9 @@ padding-top: 3px;
 
   .CDUTextThree{
     font-size: 1.5rem;
+  }
+  .clm{
+
   }
 
 
