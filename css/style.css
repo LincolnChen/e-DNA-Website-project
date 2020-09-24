@@ -1624,6 +1624,17 @@ padding-top: 3px;
     margin-left: 0px;
   }
 
+  .Box{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .h2-building{
+    margin-top:70px;
+
+  }
+
+
   .topicimg{
     width: 320px;
     height: 200px;
