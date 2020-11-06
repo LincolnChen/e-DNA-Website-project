@@ -713,9 +713,9 @@ function show_waterhole8_info1() {
   document.getElementById("game8_info2").style.display = "block";
 }
 
-function hide_waterhole7_info1() {
-  document.getElementById("waterhole7__layer").style.display = "block";
-  document.getElementById("game7_info2").style.display = "none";
+function hide_waterhole8_info1() {
+  document.getElementById("waterhole8__layer").style.display = "block";
+  document.getElementById("game8_info2").style.display = "none";
 }
 
 function show_waterhole8_info2() {
@@ -725,7 +725,7 @@ function show_waterhole8_info2() {
 
 function hide_waterhole8_info2() {
   document.getElementById("waterhole8__layer2").style.display = "block";
-  document.getElementById("game7_info3").style.display = "none";
+  document.getElementById("game8_info3").style.display = "none";
 }
 
 function show_waterhole8_info3() {
