@@ -226,6 +226,23 @@ h1,h2, h3, h4, h5, h6 {
 	background-color: #317b87;
 
 }
+.congras__button{
+  width: 80px;
+  height: 40px;
+  float:right;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  background-color:#007a87;
+  text-align: center;
+
+}
+.congras__button a{
+  color: white;
+
+}
+
 
 
 
@@ -1587,6 +1604,18 @@ padding-top: 3px;
   	border-radius: 5px;
   	font-size: 30px;
   	background-color: #317b87;
+
+  }
+  .congras__button{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    float:right;
+    color: white;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #317b87;
 
   }
 
