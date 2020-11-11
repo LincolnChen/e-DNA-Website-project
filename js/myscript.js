@@ -326,6 +326,17 @@ function hide_condition16() {
   document.getElementById("condition16__layer").style.display = "block";
   document.getElementById("condition_info16").style.display = "none";
 }
+
+function show_condition17() {
+  document.getElementById("condition17__layer").style.display = "none";
+  document.getElementById("condition_info17").style.display = "block";
+}
+
+function hide_condition17() {
+  document.getElementById("condition17__layer").style.display = "block";
+  document.getElementById("condition_info17").style.display = "none";
+}
+
 //condition ends//
 
 //waterhole1 start//
@@ -1030,4 +1041,21 @@ function myFunction20() {
    else {
     x.style.display = "block";
   }
+}
+
+var d = document
+var w = window
+w.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (d.body.scrollTop > 20 || d.documentElement.scrollTop > 20) {
+    d.getElementById("backtotop").style.display = "block";
+  } else {
+    d.getElementById("backtotop").style.display = "none";
+  }
+}
+
+function topFunction() {
+  d.body.scrollTop = 0;
+  d.documentElement.scrollTop = 0;
 }

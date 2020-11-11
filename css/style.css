@@ -17,6 +17,17 @@ body {
   overflow-x: hidden;
 }
 
+#grid p {
+  float:left;
+  width:33.33%;
+  text-align: center;
+  line-height:150px;
+}
+#grid img {
+  vertical-align:middle;
+  margin:5px 20px;
+  padding:5px;
+}
 
 h1,h2, h3, h4, h5, h6 {
 	font-family:'Open Sans', Arial, sans-serif;
@@ -268,7 +279,7 @@ h1,h2, h3, h4, h5, h6 {
 
 #condition_info, #condition_info2, #condition_info3, #condition_info4, #condition_info5, #condition_info6, #condition_info7,
 #condition_info8, #condition_info9, #condition_info10, #condition_info11, #condition_info12, #condition_info13, #condition_info14
-, #condition_info15, #condition_info16, #condition_info17{
+, #condition_info15, #condition_info16, #condition_info17,#condition_info18{
 	display: none;
 }
 
@@ -395,6 +406,19 @@ h1,h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
+#backtotop{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #201644;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}
 
 .backtogame{
 	width: 150px;
@@ -421,7 +445,7 @@ h1,h2, h3, h4, h5, h6 {
 .sponsors__title{
 	color: black;
 	font-family:'Open Sans', Arial, sans-serif;
-	font-size: 35px;
+	font-size: 36px;
 	font-weight: normal;
 	font-weight: bold;
 	text-align: center;
