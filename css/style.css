@@ -610,7 +610,6 @@ header .navbar {
     font-size: 24px;
     font-weight: 700;
     line-height: 1em;
-    letter-spacing: -1px;
     margin-top: 100px;
     padding: 0 0 0 15px;
 }
@@ -619,7 +618,8 @@ color: #1891EC;margin: 11px 0 0;}
 
 header .navbar-collapse  ul.navbar-nav {
     float: right;
-    margin-right: 0;
+    margin-right: 18px;
+    margin-top: 25px;
 }
 header .navbar {min-height: 70px;padding: 18px 0;background: #FFFFFF;box-shadow: 1px -2px 3px #000;}
 .home-page header .navbar-default{
