@@ -354,7 +354,7 @@ h1,h2, h3, h4, h5, h6 {
 
 .collapsible{
 	display: block;
-	background-color: #317b87;
+	background-color: #201644;
 	border-radius: 5px;
   color: white;
 	margin: 30px;
@@ -372,7 +372,7 @@ h1,h2, h3, h4, h5, h6 {
 	color: white;
 	margin: 30px;
 	text-align: center;
-	background-color: #317b87;
+	background-color: #201644;
 	border-radius: 5px;
 	padding: 10px;
 	border: none;
@@ -1397,7 +1397,7 @@ padding-top: 3px;
   }
   .collapsible{
   	display: block;
-  	background-color: #317b87;
+  	background-color: #201644;
   	border-radius: 5px;
     color: white;
   	margin: 30px;
@@ -1415,7 +1415,7 @@ padding-top: 3px;
   	color: white;
   	margin: 30px;
   	text-align: center;
-  	background-color: #317b87;
+  	background-color: #201644;
   	border-radius: 5px;
   	padding: 10px;
   	border: none;
