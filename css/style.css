@@ -7,6 +7,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.parent{
+  width: 100%;
+}
+
+.half-page-image {
+  width: 21%;
+  height: 10%;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 40px;
+  vertical-align:middle;
+}
+
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
@@ -16,6 +29,8 @@ body {
 	background: #fff;
   overflow-x: hidden;
 }
+
+
 
 #grid p {
   float:left;
@@ -71,6 +86,7 @@ h1,h2, h3, h4, h5, h6 {
     flex: 50%;
 
   }
+
   .navbar-collapse.collapse.navbar-nav{
     display: block;
   }
@@ -104,6 +120,16 @@ h1,h2, h3, h4, h5, h6 {
     width: 200px;
     height: 80px;
   }
+  .lastone{
+    width: 350px;
+    height: 200px;
+  }
+
+  .half-page-image{
+    width: 100%;
+    margin-left: auto;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -128,6 +154,23 @@ h1,h2, h3, h4, h5, h6 {
 	line-height:1em;
 	color: black;
 	font-family: sans-serif;
+
+}
+.ack2 p{
+	font-size: 20px;
+	font-weight:300;
+	line-height:1em;
+	color: black;
+	font-family: sans-serif;
+
+}
+
+.ack2 h2{
+  color: black;
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size: 35px;
+	font-weight: normal;
+	font-weight: bold;
 
 }
 .container {
@@ -869,8 +912,22 @@ display: inline-block;
 }
 
 
+.teamsection{
+  padding: 50px 0 0;
+  background:#f1f1f1;
+  color: #1B1B1B;
+}
 
+img.img-team {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+}
 
+.ack2{
+  margin-top: 120px;
+
+}
 
 .gamesection{padding: 50px 0 0;background:#317b87;color: #1B1B1B;}
 img.img-center {
@@ -1343,6 +1400,10 @@ padding-top: 3px;
 
 
 @media (max-width: 812px) {
+  .ack2{
+    margin-top: 0px;
+
+  }
 	.bottom-article a.pull-right {
 		float:left;
 		margin-top:20px;
@@ -1356,8 +1417,8 @@ padding-top: 3px;
 
   .Box{
     width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: -10px;
+    margin-left: -10px;
   }
   .h2-building{
     margin-top:70px;
@@ -1428,7 +1489,7 @@ padding-top: 3px;
     text-align: center;
     float:right;
     color: white;
-    margin: 30px;
+    margin: 10px;
     border-radius: 5px;
     font-size: 30px;
     background-color: #317b87;
