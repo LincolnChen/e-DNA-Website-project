@@ -28,6 +28,24 @@ h1,h2, h3, h4, h5, h6 {
   vertical-align:middle;
 }
 
+.half-image {
+  width: 21%;
+  height: 10%;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 115px;
+  vertical-align:middle;
+}
+
+.page-image {
+  width: 13%;
+  height: 4%;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 50px;
+  vertical-align:middle;
+}
+
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
@@ -143,7 +161,28 @@ body {
   .half-page-image{
     width: 100%;
     margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: 100%;
+    z-index: 1;
+
+  }
+  .half-image{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100%;
+    z-index: 1;
+
+  }
+  .page-image{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1;
+
   }
 }
 
