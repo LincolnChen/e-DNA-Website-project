@@ -740,7 +740,7 @@ header .navbar {
 header .navbar-collapse  ul.navbar-nav {
     float: right;
     margin-right: 18px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 header .navbar {
   min-height: 70px;
@@ -783,7 +783,7 @@ header  .navbar-nav > li > a {
 .topnav {
   overflow: hidden;
   margin-right: 18px;
-  margin-top: 25px;
+  margin-top: 32px;
   float: right;
   background-color: #317b87;
 }
