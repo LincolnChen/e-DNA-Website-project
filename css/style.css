@@ -126,9 +126,9 @@ body {
 
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:1400px) {
   .image{
-    flex: 33.33%;
+    flex: 50%;
   }
   .col-sm-6{
     display: none;
@@ -734,7 +734,7 @@ header .navbar {
 }
 .navbar-default .navbar-brand{
   color: #1891EC;
-  margin: 11px 0 0;
+  margin: 5px 0 0;
 }
 
 header .navbar-collapse  ul.navbar-nav {
